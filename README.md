@@ -1,14 +1,17 @@
-# CiphersLab
+To run this project, you need to have the following versions installed on your system:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+- **Node.js**: Version 18.13.0 or higher
+- **Angular CLI**: Version 17.0.0 or higher
 
-## Development server
+### Step 1: Install Node.js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Download and Install Node.js**  
+   If you don't have Node.js installed, download it from [https://nodejs.org/](https://nodejs.org/) and install it. Make sure the version is 18.13.0 or higher.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. **Verify Node.js Installation**  
+   Open a terminal and run:
+   ```bash
+   node -v
 
 ## Build
 
