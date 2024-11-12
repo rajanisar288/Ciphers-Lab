@@ -1,0 +1,58 @@
+{
+    "title": "User Registration Form",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "name": "fullName",
+        "validation": {
+          "required": true,
+          "minLength": 3,
+          "maxLength": 50
+        }
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "placeholder": "Enter your email",
+        "name": "email",
+        "validation": {
+          "required": true,
+          "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+        }
+      },
+      {
+        "type": "password",
+        "label": "Password",
+        "placeholder": "Enter a strong password",
+        "name": "password",
+        "validation": {
+          "required": true,
+          "minLength": 8
+        }
+      },
+      {
+        "type": "select",
+        "label": "Country",
+        "name": "country",
+        "options": [
+          { "label": "United States", "value": "us" },
+          { "label": "Canada", "value": "ca" },
+          { "label": "United Kingdom", "value": "uk" }
+        ],
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "type": "checkbox",
+        "label": "Accept Terms and Conditions",
+        "name": "terms",
+        "validation": {
+          "required": true
+        }
+      }
+    ]
+  }
+  
